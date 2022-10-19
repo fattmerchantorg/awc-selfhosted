@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=com.anywherecommerce.android.sdk-release.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.anywherecommerce.android -DartifactId=sdk-release -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
